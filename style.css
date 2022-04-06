@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    color: seashell;
+   
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    position: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    align-items: center;
+    padding: 0 10px;
+    z-index: 1;
+    margin-top: 0;
+    background-color: black;
+}
+
+.logo {
+    height: 50px;
+    
+}
+
+nav ul {
+    display: inline-flex;
+    
+    
+}
+
+li {
+    color: seashell;
+    text-decoration: underline;
+    list-style-type: none;
+    margin-left: 15px; 
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+
+.mission {
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 700px;
+    background-size: cover;
+    background-position: center; 
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.mission-text {
+    height: max-content;
+    position: absolute;
+    text-align: center;
+    width: 1200px;
+    padding: 15px;
+    background-color: black;
+}
+
+h2,
+h4 {
+    margin: 5px;
+    text-align: center;
+}
+
+.totm {
+    margin: 60px;
+    width: 1000px
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.totm-pic {
+    height: 200px;
+    width: 300px;
+}
+
+figure {
+    width: max-content;
+    margin: 15px;
+    margin-bottom: 0;
+}
+
+figcaption {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.location {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-size: cover;
+    background-position: center; 
+    width: 1200px;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.boxcontainer {
+    display: inline-flex;
+}
+
+.location-box {
+    background-color: black;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#locationtext {
+    background-color: transparent;
+    position: absolute;
+    bottom: 410px;
+}
+
+.footerbox {
+    height: 200px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+}
+
+#left-text {
+    padding-left: 20px;
+    text-align: left;
+    width: 100%;
+
+}
