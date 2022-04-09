@@ -154,5 +154,6 @@ figcaption {
     padding-left: 20px;
     text-align: left;
     width: 100%;
-
+    position: absolute;
+    left: 0px;
 }
